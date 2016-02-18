@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+
   get 'static_pages/home'
 
   get 'static_pages/help'
@@ -7,7 +8,7 @@ SampleApp::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   #You can have the root of your site routed with "root"
-  root 'application#hello'
+  #root 'application#hello'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
